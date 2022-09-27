@@ -1,19 +1,4 @@
-#pontinho{
-    
-    padding-top: 10px;
-    width: 30px;
-
-}
-#logo{
-    width: 300px;
-
-}
-div.center{
-    text-align: center;
-    margin-top: -105px;
-    margin-bottom: 1%
-}
-#barra_de_pesquisa{
+html{
 
     text-align: center;
 
