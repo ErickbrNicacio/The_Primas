@@ -1,0 +1,4 @@
+git add . (o git add adiciona arquivos, o "." seleciona todos os arquivos em determinada pasta)
+git commit -m "explicação" (explica por que tal mudança)
+git push (adiciona os  arquivos no repositorio)
+git status (vê o status dos arquivos😑, adicionados ou não, atualizados ou não)
