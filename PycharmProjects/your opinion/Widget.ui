@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>535</width>
+    <height>394</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>511</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(39, 54, 73);border-radius: 14px;</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>180</y>
+      <width>271</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+
+				</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; color:#ffffff;&quot;&gt;Deixe sua avaliação!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>90</y>
+      <width>91</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../Downloads/estrelinhas.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>90</y>
+      <width>91</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../Downloads/estrelinhas.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>90</y>
+      <width>91</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../Downloads/estrelinhas.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>90</y>
+      <width>91</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../Downloads/estrelinhas.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>90</y>
+      <width>91</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../Downloads/estrelinhas.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>300</y>
+      <width>431</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> background-color: rgb(255, 255, 255);
+color: rgba(0, 0, 0, 1.0); 
+font: 8pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>Escreva seu comentário aqui</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>0</y>
+      <width>431</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 26pt &quot;Vladimir Script&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:28pt; color:#ffffff;&quot;&gt;YourOpinion&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>300</y>
+      <width>41</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 14px;
+background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Enviar</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(238, 235, 231);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="botaoavaliar">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>520</y>
+      <width>251</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> background: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0,
+                                stop: 0 #BFE5E8,
+                                stop: 0.5 #9CC1C4,
+                                stop: 1 #C8E2E4);
+border-radius: 14px;
+font-family: &quot;MS Shell Dlg 2&quot;;
+    font-size: 12px;
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>Avaliar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="botaocomentario">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>519</y>
+      <width>251</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> background: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0,
+                                stop: 0 #BFE5E8,
+                                stop: 0.5 #9CC1C4,
+                                stop: 1 #C8E2E4);
+border-radius: 14px;
+font-family: &quot;MS Shell Dlg 2&quot;;
+    font-size: 12px;
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>Comentários</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>0</y>
+      <width>491</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="NomeSite">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>471</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="whatsThis">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 36pt &quot;Vladimir Script&quot;;</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:48pt;&quot;&gt;YourOpinion&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+
+</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_3">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>170</y>
+      <width>521</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="descricaolookism">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>501</width>
+       <height>251</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 13pt &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Harry Potter é um garoto órfão que vive infeliz com seus tios, os Dursleys. Ele recebe uma carta contendo um convite para ingressar em Hogwarts, uma famosa escola especializada em formar jovens bruxos. Inicialmente, Harry é impedido de ler a carta por seu tio, mas logo recebe a visita de Hagrid, o guarda-caça de Hogwarts, que chega para levá-lo até a escola. Harry adentra um mundo mágico que jamais imaginara, vivendo diversas aventuras com seus novos amigos, Rony Weasley e Hermione Granger.</string>
+     </property>
+     <property name="scaledContents">
+      <bool>false</bool>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="escritolookism">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>106</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+
+				</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Harry Potter e a Pedra Filosofal&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="estrela01">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>110</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>estrelinhas.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="estrela04">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>110</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>estrelinhas.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="estrela03">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>110</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>estrelinhas.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="estrela05">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>110</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>estrelinhas.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="estrela02">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>110</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>estrelinhas.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lookism1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>231</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../Downloads/harry01.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="batata">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>40</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>voltar</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

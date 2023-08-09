@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(238, 235, 231);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>10</y>
+      <width>711</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="NomeSite">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>20</y>
+       <width>471</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="whatsThis">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 36pt &quot;Vladimir Script&quot;;</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:48pt;&quot;&gt;YourOpinion&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+
+</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>170</y>
+      <width>711</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="textodeentrada">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>100</y>
+       <width>591</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 18pt &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;O Your Opinion é uma plataforma de avaliação de livros, onde você pode descobrir, avaliar e compartilhar suas opiniões sobre suas leituras favoritas. Encontre novos livros, mangás por meio da  nossa pesquisa abrangente, leia avaliações e resenhas de outros usuários, deixe suas próprias   avaliações e acompanhe suas leituras.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="BemVindo">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>20</y>
+       <width>251</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 18pt &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Bem vindo!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="acessar">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>540</y>
+      <width>251</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> background: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0,
+                                stop: 0 #BFE5E8,
+                                stop: 0.5 #9CC1C4,
+                                stop: 1 #C8E2E4);
+border-radius: 14px;
+font-family: &quot;MS Shell Dlg 2&quot;;
+    font-size: 12px;
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>Acessar</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>-40</y>
+      <width>1080</width>
+      <height>1080</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 0.5);
+background-color: transparent;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../Downloads/login.png</pixmap>
+    </property>
+   </widget>
+   <zorder>label_5</zorder>
+   <zorder>frame</zorder>
+   <zorder>acessar</zorder>
+   <zorder>frame_2</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
